@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 913.0, 321.0, 81.0, 102.0 ],
+					"patching_rect" : [ 865.0, 246.753405332565308, 81.0, 102.0 ],
 					"text" : ";\rdecay 0.999;\rtone 1000;\rdelay 300;\rfeedback 0.6;\rmodulation 2;\r"
 				}
 
@@ -187,11 +187,11 @@
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 91.506843388080597, 158.400002360343933, 38.0, 22.0 ],
-					"text" : "pink~"
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 91.506843388080597, 158.400002360343933, 56.0, 22.0 ],
+					"text" : "train~ 10"
 				}
 
 			}
