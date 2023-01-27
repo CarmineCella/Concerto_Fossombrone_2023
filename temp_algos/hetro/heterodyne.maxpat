@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1852.0, 889.0 ],
+		"rect" : [ 34.0, 100.0, 1852.0, 1062.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 8,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 942.5, 377.0, 107.0, 129.0 ],
+					"presentation_linecount" : 10,
+					"text" : ";\rf0 440;\ran_smooth 1000;\rsyn_smooth 1000;\rshift 1.4;\rf0_delay 400;\rfeedback 0.7;\rscale 1;\r"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"linecount" : 8,
