@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 6,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1150.0, 197.0, 81.0, 119.0 ],
+					"presentation_linecount" : 6,
+					"text" : ";\r\ndecay 0.999;\r\ntone 2500;\r\ndelay 180;\r\nfeedback 0.3;\r\nmodulation 6;\r\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 6,
 					"maxclass" : "message",
