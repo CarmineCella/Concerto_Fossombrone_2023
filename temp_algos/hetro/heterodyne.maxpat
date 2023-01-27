@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 99.0, 1852.0, 1062.0 ],
+		"rect" : [ 34.0, 100.0, 1852.0, 1062.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -132,7 +132,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.333344000000011, 364.0, 81.0, 22.0 ],
+					"patching_rect" : [ 356.0, 390.0, 81.0, 22.0 ],
 					"text" : "receive scale"
 				}
 
@@ -145,8 +145,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.5, 364.0, 105.0, 129.0 ],
-					"text" : ";\rf0 331;\ran_smooth 100;\rsyn_smooth 100;\rshift 1;\rf0_delay 0;\rfeedback 0;\rscale 1;\r"
+					"patching_rect" : [ 650.5, 364.0, 100.0, 129.0 ],
+					"text" : ";\rf0 330;\ran_smooth 100;\rsyn_smooth 100;\rshift 1;\rf0_delay 0;\rfeedback 0;\rscale 1;\r"
 				}
 
 			}
@@ -221,7 +221,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 349.333344000000011, 404.666687000000024, 50.0, 22.0 ]
+					"patching_rect" : [ 356.0, 430.666687000000024, 50.0, 22.0 ]
 				}
 
 			}
@@ -232,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 248.0, 428.000030999999979, 36.0, 22.0 ],
+					"patching_rect" : [ 254.666655999999989, 454.000030999999979, 36.0, 22.0 ],
 					"text" : "*~ 1."
 				}
 
@@ -244,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 386.666655999999989, 470.000030999999979, 80.0, 13.0 ]
+					"patching_rect" : [ 393.333311999999978, 496.000030999999979, 80.0, 13.0 ]
 				}
 
 			}
@@ -290,7 +290,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 539.333374000000049, 45.0, 45.0 ]
+					"patching_rect" : [ 254.666655999999989, 565.333374000000049, 45.0, 45.0 ]
 				}
 
 			}
@@ -556,7 +556,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "hetro_channel.maxpat",
-				"bootpath" : "~/Desktop/Concerto_Fossombrome_2023/temp_algos/hetro",
+				"bootpath" : "~/Desktop/Concerto_Fossombrone_2023/temp_algos/hetro",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
