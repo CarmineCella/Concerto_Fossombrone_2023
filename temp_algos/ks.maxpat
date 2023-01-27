@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 127.0, 1370.0, 795.0 ],
+		"rect" : [ 65.0, 133.0, 1370.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,9 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1043.0, 192.0, 81.0, 102.0 ],
-					"presentation_linecount" : 6,
-					"text" : ";\rdecay 0.999;\rtone 5000;\rdelay 100;\rfeedback 0.7;\rmodulation 6;\r"
+					"patching_rect" : [ 1043.0, 192.0, 81.0, 119.0 ],
+					"text" : ";\r\ndecay 0.999;\r\ntone 5000;\r\ndelay 100;\r\nfeedback 0.7;\r\nmodulation 6;\r\n"
 				}
 
 			}
@@ -132,8 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 246.753405332565308, 81.0, 102.0 ],
-					"text" : ";\rdecay 0.999;\rtone 1000;\rdelay 300;\rfeedback 0.6;\rmodulation 2;\r"
+					"patching_rect" : [ 865.0, 246.753405332565308, 81.0, 119.0 ],
+					"text" : ";\r\ndecay 0.999;\r\ntone 1000;\r\ndelay 300;\r\nfeedback 0.6;\r\nmodulation 2;\r\n"
 				}
 
 			}
@@ -465,7 +464,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 322.899998754262924, 593.000005900859833, 165.200002133846283, 31.999998390674591 ]
+					"patching_rect" : [ 302.500004500150681, 559.000005900859833, 165.200002133846283, 31.999998390674591 ]
 				}
 
 			}
