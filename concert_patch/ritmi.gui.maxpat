@@ -163,7 +163,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"items" : [ "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -178,7 +178,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -193,7 +193,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"items" : [ "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -226,8 +226,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.900003969669342, 189.5, 190.0, 22.0 ],
-					"text" : "append o15.wav, append o17.wav"
+					"patching_rect" : [ 328.900003969669342, 189.5, 456.0, 22.0 ],
+					"text" : "append sound1.wav, append sound2.wav, append sound3.wav, append sound4.wav"
 				}
 
 			}
@@ -246,7 +246,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"items" : [ "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav", ",", "o15.wav", ",", "o17.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -689,8 +689,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.5, 450.900007784366608, 141.0, 119.0 ],
-					"text" : ";\r#1-ritmi-mute 1;\n#1-ritmi-speed 1 0;\r#1-ritmi RM 0 0;\r#1-ritmi-variazione_on b;\r\n#1-ritmi-gain 0 0;\r"
+					"patching_rect" : [ 746.5, 450.900007784366608, 134.0, 119.0 ],
+					"text" : ";\r#1-ritmi-mute 1;\n#1-ritmi-speed 1 0;\r#1-ritmi-RM 0 0;\r#1-ritmi-variazione_on b;\n#1-ritmi-gain 0 0;\r"
 				}
 
 			}
@@ -1047,29 +1047,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "hits.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "r+.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ritmi.algo.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.945098039215686, 0.913725490196078, 0.407843137254902, 1.0 ],
 		"editing_bgcolor" : [ 0.945098039215686, 0.913725490196078, 0.407843137254902, 1.0 ]
 	}

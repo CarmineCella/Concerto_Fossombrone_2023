@@ -40,12 +40,51 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1293.303571428571558, 229.0, 126.0, 22.0 ],
+					"text" : "r #1-AddSynth-mode2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 664.000000000000114, 179.45001220703125, 126.0, 22.0 ],
+					"text" : "r #1-AddSynth-mode1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"linecount" : 17,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 528.666672000000062, 419.0, 149.0, 271.0 ],
+					"text" : ";\n#1-AddSynth-enable 0;\n#1-AddSynth-fund;\r#1-AddSynth-rarefaction1;\r#1-AddSynth-freqdev1;\r#1-AddSynth-min1 3;\r#1-AddSynth-max1 5;\r#1-AddSyth-harm1;\r#1-AddSynth-mode1 1;\r#1-AddSynth-scale1;\r#1-AddSynth-rarefaction2;\r#1-AddSynth-freqdev2;\r#1-AddSynth-min2 3;\r#1-AddSynth-max2 5;\r#1-AddSyth-harm2;\r#1-AddSynth-mode2 1;\r#1-AddSynth-scale2;\r"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.000000000000114, 173.45001220703125, 150.0, 48.0 ],
+					"patching_rect" : [ 762.000000000000114, 126.66241455078125, 150.0, 48.0 ],
 					"text" : "mode: se segue la scala delle armoniche(1) o va a random(0)"
 				}
 
@@ -364,7 +403,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.000000000000114, 259.21240234375, 58.0, 20.0 ],
+					"patching_rect" : [ 664.000000000000114, 153.539443969726562, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.153976440429688, 310.11517333984375, 58.0, 20.0 ],
 					"text" : "mode1"
@@ -6178,6 +6217,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 1 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -6363,6 +6416,45 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-61" : [ "Gain[5]", "Gain", 0 ],
+			"obj-69::obj-110" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-69::obj-2" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ez.synth_nomidi.maxpat",
+				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ez.synth_nomidi_slow.maxpat",
+				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "r+.maxpat",
+				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.403921568627451, 0.258823529411765, 0.862745098039216, 1.0 ]
 	}
 
