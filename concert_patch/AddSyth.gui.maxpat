@@ -431,7 +431,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2931,7 +2930,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -4882,18 +4880,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-123",
-									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 102.0, 490.5, 44.0, 44.0 ],
-									"prototypename" : "helpfile"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"format" : 6,
 									"id" : "obj-85",
 									"maxclass" : "flonum",
@@ -5182,13 +5168,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-123", 1 ],
-									"source" : [ "obj-110", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-102", 2 ],
 									"source" : [ "obj-111", 0 ]
 								}
@@ -5261,14 +5240,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-123", 0 ],
-									"order" : 3,
-									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -6392,45 +6363,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-61" : [ "Gain[5]", "Gain", 0 ],
-			"obj-69::obj-110" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-69::obj-2" : [ "live.gain~", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ez.synth_nomidi.maxpat",
-				"bootpath" : "~/Desktop/casetta2023/lajoie",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ez.synth_nomidi_slow.maxpat",
-				"bootpath" : "~/Desktop/casetta2023/lajoie",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "r+.maxpat",
-				"bootpath" : "~/Desktop/casetta2023/lajoie",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.403921568627451, 0.258823529411765, 0.862745098039216, 1.0 ]
 	}
 
