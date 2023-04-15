@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1447.0, 699.0 ],
+		"rect" : [ 41.0, 87.0, 1447.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-52",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 110.0, 720.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-35",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 53.0, 720.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -72,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.666672000000062, 419.0, 149.0, 271.0 ],
+					"patching_rect" : [ 528.666672000000062, 419.0, 149.0, 250.0 ],
 					"text" : ";\n#1-AddSynth-enable 0;\n#1-AddSynth-fund;\r#1-AddSynth-rarefaction1;\r#1-AddSynth-freqdev1;\r#1-AddSynth-min1 3;\r#1-AddSynth-max1 5;\r#1-AddSyth-harm1;\r#1-AddSynth-mode1 1;\r#1-AddSynth-scale1;\r#1-AddSynth-rarefaction2;\r#1-AddSynth-freqdev2;\r#1-AddSynth-min2 3;\r#1-AddSynth-max2 5;\r#1-AddSyth-harm2;\r#1-AddSynth-mode2 1;\r#1-AddSynth-scale2;\r"
 				}
 
@@ -84,7 +108,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 762.000000000000114, 126.66241455078125, 150.0, 48.0 ],
+					"patching_rect" : [ 762.000000000000114, 126.66241455078125, 150.0, 47.0 ],
 					"text" : "mode: se segue la scala delle armoniche(1) o va a random(0)"
 				}
 
@@ -435,8 +459,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -866,8 +890,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -925,8 +949,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 1,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1098,8 +1122,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 3,
-																			"revision" : 1,
+																			"minor" : 1,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -1180,8 +1204,8 @@
 																						"fileversion" : 1,
 																						"appversion" : 																						{
 																							"major" : 8,
-																							"minor" : 3,
-																							"revision" : 1,
+																							"minor" : 1,
+																							"revision" : 11,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -1480,8 +1504,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 3,
-																			"revision" : 1,
+																			"minor" : 1,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2934,8 +2958,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3004,8 +3028,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 1,
+															"minor" : 1,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3203,8 +3227,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 3,
-																			"revision" : 1,
+																			"minor" : 1,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -3285,8 +3309,8 @@
 																						"fileversion" : 1,
 																						"appversion" : 																						{
 																							"major" : 8,
-																							"minor" : 3,
-																							"revision" : 1,
+																							"minor" : 1,
+																							"revision" : 11,
 																							"architecture" : "x64",
 																							"modernui" : 1
 																						}
@@ -3585,8 +3609,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 3,
-																			"revision" : 1,
+																			"minor" : 1,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -5829,9 +5853,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.654434204101562, 38.226875305175781, 120.0, 57.0 ],
+					"patching_rect" : [ 36.654434204101562, 38.226875305175781, 120.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.137603759765625, 5.341402053833008, 143.0, 33.0 ],
+					"presentation_rect" : [ 14.137603759765625, 5.341402053833008, 143.0, 34.0 ],
 					"text" : "#1-AddSynth"
 				}
 
@@ -6054,7 +6078,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 993.0, 652.0, 142.0, 215.0 ],
+					"patching_rect" : [ 993.0, 652.0, 142.0, 196.0 ],
 					"text" : ";\n#1-AddSynth-enable 0;\n#1-AddSynth-fund 0;\r#1-AddSynth-freqdev1 0;\n#1-AddSynth-freqdev2 0;\r#1-AddSynth-min1 0;\n#1-AddSynth-max1 1;\r#1-AddSynth-min2 0;\n#1-AddSynth-max2 0;\r#1-AddSynth-harm1 1;\n#1-AddSynth-harm2 1;\r#1-AddSynth-scale1 0.3;\n#1-AddSynth-scale2 0.3;\r"
 				}
 
@@ -6361,7 +6385,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"order" : 0,
+					"source" : [ "obj-61", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
+					"order" : 1,
 					"source" : [ "obj-61", 1 ]
 				}
 
@@ -6369,6 +6410,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
+					"order" : 1,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -6421,11 +6463,6 @@
 			"obj-69::obj-110" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-69::obj-2" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
 
 			}
 ,
@@ -6433,22 +6470,22 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "r+.maxpat",
+				"bootpath" : "~/Desktop/Concerto_Fossombrone_2023/concert_patch",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ez.synth_nomidi.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
+				"bootpath" : "~/Desktop/Concerto_Fossombrone_2023/concert_patch",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ez.synth_nomidi_slow.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "r+.maxpat",
-				"bootpath" : "~/Concerto_Fossombrone_2023/concert_patch",
+				"bootpath" : "~/Desktop/Concerto_Fossombrone_2023/concert_patch",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
