@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1468.0, 713.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -305,7 +305,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1372.0, 747.0 ],
+						"rect" : [ -549.0, 119.0, 969.0, 747.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -358,8 +358,9 @@
 							}
 , 							{
 								"box" : 								{
-									"bgmode" : 0,
-									"border" : 0,
+									"args" : [ 1 ],
+									"bgmode" : 1,
+									"border" : 1,
 									"clickthrough" : 0,
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
@@ -371,20 +372,8 @@
 									"numoutlets" : 6,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 430.0, 665.0, 507.0, 273.0 ],
+									"patching_rect" : [ 645.0, 1003.0, 584.0, 628.0 ],
 									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontsize" : 72.0,
-									"id" : "obj-10",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 604.0, 568.0, 333.0, 87.0 ],
-									"text" : "DA FARE!"
 								}
 
 							}
@@ -3191,7 +3180,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 349.5, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 471.5, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3203,7 +3192,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.5, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 401.5, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3215,7 +3204,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.5, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 332.5, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3227,7 +3216,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 142.0, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 264.0, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3239,7 +3228,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 91.0, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 213.0, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3251,7 +3240,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.0, 1119.0, 30.0, 30.0 ]
+									"patching_rect" : [ 154.0, 1267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -4757,6 +4746,48 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-14", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-14", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-14", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -5990,13 +6021,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"linecount" : 31,
+					"linecount" : 30,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1483.495495319366455, 275.305867941772249, 183.0, 424.0 ],
-					"text" : ";\r1-proto_granulator-reset bang;\r2-proto_granulator-reset bang;\r1-sample_granulator-reset bang;\r2-sample_granulator-reset bang;\r1-player-reset bang;\r2-player-reset bang;\r1-xsynth-reset bang;\r1-spectral_freeze-reset bang;\r1-microphone-reset bang;\r2-microphone-reset bang;\r3-microphone-reset bang;\r4-microphone-reset bang;\r5-microphone-reset bang;\r6-microphone-reset bang;\r7-microphone-reset bang;\r8-microphone-reset bang;\r1-noiser-reset bang;\r2-noiser-reset bang;\r3-noiser-reset bang;\r4-noiser-reset bang;\r5-noiser-reset bang;\r6-noiser-reset bang;\r1-FMgran-reset bang;\r1-sinux-reset bang;\r1-ritmi-reset bang;\r1-AddSynth-reset bang;\r1-Harmonizer-reset bang;\resapan-reset bang;\rpatchbay-reset bang;\rscenes-reset bang"
+					"patching_rect" : [ 1483.495495319366455, 275.305867941772249, 183.0, 411.0 ],
+					"text" : ";\r1-proto_granulator-reset bang;\r2-proto_granulator-reset bang;\r1-sample_granulator-reset bang;\r2-sample_granulator-reset bang;\r1-player-reset bang;\r2-player-reset bang;\r1-xsynth-reset bang;\r1-spectral_freeze-reset bang;\r1-microphone-reset bang;\r2-microphone-reset bang;\r3-microphone-reset bang;\r4-microphone-reset bang;\r5-microphone-reset bang;\r6-microphone-reset bang;\r7-microphone-reset bang;\r8-microphone-reset bang;\r1-noiser-reset bang;\r2-noiser-reset bang;\r3-noiser-reset bang;\r4-noiser-reset bang;\r5-noiser-reset bang;\r6-noiser-reset bang;\r1-FMgran-reset bang;\r1-sinux-reset bang;\r1-AddSynth-reset bang;\r1-Harmonizer-reset bang;\r1-esapan-reset bang;\rpatchbay-reset bang;\rscenes-reset bang"
 				}
 
 			}
@@ -6640,7 +6671,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-9",
@@ -6817,7 +6847,6 @@
 														"style" : "",
 														"subpatcher_template" : "",
 														"assistshowspatchername" : 0,
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-20",

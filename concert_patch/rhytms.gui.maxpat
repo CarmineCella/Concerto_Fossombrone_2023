@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -101,13 +101,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.5, 455.0, 161.0, 174.0 ],
-					"text" : ";\r\n1-rhytms-mute 1;\r\n1-rhytms-speed 1 0;\r\n1-rhytms-RM 0 0;\r\n1-rhytms-variazione_on b;\r\n1-rhytms-gain1 0 0;\r\n1-rhytms-gain2 0 0;\r\n1-rhytms-gain3 0 0;\r\n1-rhytms-gain4 0 0;\r\n1-rhytms-sample_path bang;\r\n"
+					"patching_rect" : [ 746.5, 455.0, 147.0, 143.0 ],
+					"text" : ";\r1-rhytms-mute 1;\r1-rhytms-speed 1 0;\r1-rhytms-RM 0 0;\r1-rhytms-variazione_on b;\r1-rhytms-gain1 0 0;\r1-rhytms-gain2 0 0;\r1-rhytms-gain3 0 0;\r1-rhytms-gain4 0 0;\r"
 				}
 
 			}
@@ -432,7 +432,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1245.0, 539.0, 174.89599609375, 54.0 ]
+					"patching_rect" : [ 1245.0, 539.0, 174.883010864257812, 54.0 ]
 				}
 
 			}
@@ -549,7 +549,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.900003969669342, 318.0, 150.0, 34.0 ],
+					"patching_rect" : [ 236.900003969669342, 318.0, 150.0, 33.0 ],
 					"text" : "metti i file audio nella stessa cartella"
 				}
 
@@ -857,7 +857,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.400003969669342, 83.400007784366608, 51.0, 34.0 ],
+					"patching_rect" : [ 49.400003969669342, 83.400007784366608, 51.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.400003969669342, 85.286934000000002, 71.5, 20.0 ],
 					"text" : "ON/OFF"
@@ -900,9 +900,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.800005316734314, 15.0, 142.0, 41.0 ],
+					"patching_rect" : [ 396.800005316734314, 15.0, 142.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.800006568431854, 29.5, 324.099997401237488, 41.0 ],
+					"presentation_rect" : [ 11.800006568431854, 29.5, 324.099997401237488, 40.0 ],
 					"text" : "#1-rhytms"
 				}
 
