@@ -101,13 +101,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.5, 455.0, 161.0, 174.0 ],
-					"text" : ";\r\n1-rhytms-mute 1;\r\n1-rhytms-speed 1 0;\r\n1-rhytms-RM 0 0;\r\n1-rhytms-variazione_on b;\r\n1-rhytms-gain1 0 0;\r\n1-rhytms-gain2 0 0;\r\n1-rhytms-gain3 0 0;\r\n1-rhytms-gain4 0 0;\r\n1-rhytms-sample_path bang;\r\n"
+					"patching_rect" : [ 746.5, 455.0, 161.0, 160.0 ],
+					"text" : ";\r\n1-rhytms-mute 1;\r\n1-rhytms-speed 1 0;\r\n1-rhytms-RM 0 0;\r\n1-rhytms-variazione_on b;\r\n1-rhytms-gain1 0 0;\r\n1-rhytms-gain2 0 0;\r\n1-rhytms-gain3 0 0;\r\n1-rhytms-gain4 0 0;\r\n"
 				}
 
 			}
